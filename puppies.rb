@@ -1,7 +1,11 @@
 # 1. Write a method called no_puppies that takes in a number of puppies as an argument. If the number of puppies is greater than zero then this method should return "No more puppies!" otherwise it should return "Well done, Rachel!"
 def no_puppies(i)
   if i > 0
+<<<<<<< HEAD
     "Get back to your animal goals!"
+=======
+    "No more puppies!"
+>>>>>>> ad63b92142623508c3e5d2a5cb827c6d7d5dafe0
   else
     "Good job, Rachel!"
   end
@@ -14,13 +18,21 @@ def less_puppies(i)
   elsif i == 3
     "Slow down! No more puppies."
   else
+<<<<<<< HEAD
     "Get back to your animal goals!"
+=======
+    "Get back to your animal goals!!"
+>>>>>>> ad63b92142623508c3e5d2a5cb827c6d7d5dafe0
   end
 end
 
 # 3. We've decided to give Rachel a little more control over her puppy obsession. Write a method called some_puppies that takes in two arguments - the number of puppies she has found and a maximum puppy allowance. This method should tell Rachel good job if she gets less than half her maximum allowance and to get back on her puppy restriction when she exceeds her maximum.
 def some_puppies(n, max)
+<<<<<<< HEAD
   if n < max * 0.5
+=======
+  if n < 0.5* max
+>>>>>>> ad63b92142623508c3e5d2a5cb827c6d7d5dafe0
     "Good job, Rachel!"
   elsif n > max
     "Get back to your animal goals!"
@@ -32,9 +44,15 @@ end
 
 def both_animals(cats,puppies)
   if cats == 0 || puppies == 0
+<<<<<<< HEAD
     "Good job!"
   elsif cats >= 1 && puppies >= 1 
     "Get back to your animal goals!"
+=======
+    "Good job, Rachel!"
+  elsif cats >= 1 && puppies >= 1 
+    "Slow it down, Rachel!"
+>>>>>>> ad63b92142623508c3e5d2a5cb827c6d7d5dafe0
   end
 end
   
