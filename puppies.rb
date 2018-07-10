@@ -5,7 +5,6 @@ def no_puppies(i)
     "Get back to your animal goals!"
 =======
     "No more puppies!"
->>>>>>> ad63b92142623508c3e5d2a5cb827c6d7d5dafe0
   else
     "Good job, Rachel!"
   end
